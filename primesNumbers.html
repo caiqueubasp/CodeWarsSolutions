@@ -1,0 +1,17 @@
+<script>
+    var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+    function checkPrimes(arr) {
+        if (arr === 2) {
+            console.log("2 é Primo");
+        }
+        if (arr % 3 !== 0 && arr % 5 !== 0) {
+            console.log("O numero " + arr + " " + "não é primo");
+        } else {
+            console.log("O numero " + arr + " " + "é primo");
+        }
+
+    };
+
+    arr.forEach(checkPrimes);
+</script>
